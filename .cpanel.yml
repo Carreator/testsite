@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/github.com/Carreator/testsite
+    - /bin/cp -R images $DEPLOYPATH
